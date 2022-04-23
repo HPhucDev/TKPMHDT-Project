@@ -1,0 +1,42 @@
+@import '../../style/app.scss';
+.navigation{
+    display: flex;
+    height: 40px;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid black;
+    border-bottom-width: 1px ;
+    &__left{ 
+        display: flex;
+        align-items: center;
+        &--logo{
+            & img{
+                width: 35px;
+                height: 30px;
+                margin-right: 10px;
+            }
+        }
+        &--title{
+            & p{
+                font-family: 'Alfa Slab One', cursive;
+                font-weight: 300;
+                line-height: 2.5rem;
+                font-size: 2.25rem;
+            }
+        }
+    }
+    &__right{
+        width: 500px;
+        height: 40px;
+        display: flex;
+        justify-content: flex-end;
+        &--item{
+            margin: 15px 10px;
+            font-family: 'Alfa Slab One', cursive;
+            font-weight: 300;
+            line-height: 1.5rem;
+            font-size: 1rem;
+        }
+    }
+}

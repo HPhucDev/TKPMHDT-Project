@@ -23,3 +23,7 @@ typings/
 *.tgz
 # Yarn Integrity file
 .yarn-integrity
+# env ignore
+.env
+.env.production
+.env.staging
